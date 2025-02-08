@@ -1,0 +1,21 @@
+
+h1{
+    text-align: center;
+    background-color:darkslategray;
+    color:white;
+}
+h3{
+    text-align: center;
+    background-color:teal;
+    color:white;
+}
+
+.main{
+    position: absolute;
+    left:500px;
+}
+
+footer{
+    background-color: darkslategray;
+    color:white;
+}
