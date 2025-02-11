@@ -1,21 +1,89 @@
 
 h1{
+    position: absolute;
+    top: -25px;
+    left: 5px;
+    width: 1270px;
     text-align: center;
     background-color:darkslategray;
     color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 h3{
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    width: 1270px;
     text-align: center;
     background-color:teal;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding: 3px;
+}
+
+h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    border: solid black;
+    background-color: darkslategray;
     color:white;
 }
 
 .main{
     position: absolute;
-    left:500px;
+    top: 60px;
+    left:150px;
+    right: 150px;
+    width:auto;
+    height: 515px;
+    border:solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+
+    a:link{
+        color:black;
+    }
+    a:visited{
+        color:black;
+    }
 }
 
 footer{
+    position:absolute;
+    left:5px;
+    bottom: 0px;
+    width: 1270px;
     background-color: darkslategray;
     color:white;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+#family{
+    position:absolute;
+    left:525px;
+    top: 280px;
+    border:solid black;
+    height: 289px;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    font-size: 110%;
+}
+
+#family:hover{
+    top: 200px;
+    scale: 150%;
 }
